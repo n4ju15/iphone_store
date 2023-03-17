@@ -5,14 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone</title>
-    <link rel="shortcut icon" href="images/iconemylinks.png">
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
 </head>
 
 <body>
 
-    <div>
-        <p>Menu superior</p>
+    <div class="caixa-roxa">
+        <img class="logo" src="./images/logo.png">
+
+        <ul>
+            <li>Mac</li>
+            <li>iPhone</li>
+            <li>iPad</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
+
     </div>
 
     <div class="caixa-azul">
@@ -27,18 +39,23 @@
 
             <button class="botao">Comprar</button>
 
-            <p class="troca-cor">Escolha sua cor:</p>
+            <p class="escolha-cor">Escolha sua cor:</p>
+            
             <div>
-                <button class="azul troca-cor"></button>
-                <button class="amarelo troca-cor"></button>
-                <button class="branco troca-cor"></button>
-                <button class="preto troca-cor"></button>
-                <button class="vermelho troca-cor"></button>
-                <button class="roxo troca-cor"></button>
+                <button onclick="trocaCor('#81A5C4'); trocaImagem('./images/iphone-azul.png')" class="azul troca-cor"></button>
+                <button onclick="trocaCor('#F7DA47'); trocaImagem('./images/iphone-amarelo.png')" class="amarelo troca-cor"></button>
+                <button onclick="trocaCor('#C1C1C1'); trocaImagem('./images/iphone-branco.png')" class="branco troca-cor"></button>
+                <button onclick="trocaCor('#272D33'); trocaImagem('./images/iphone-preto.png')" class="preto troca-cor"></button>
+                <button onclick="trocaCor('#B50012'); trocaImagem('./images/iphone-vemelho.png')" class="vermelho troca-cor"></button>
+                <button onclick="trocaCor('#d5a8fa'); trocaImagem('./images/iphone-roxo.png')" class="roxo troca-cor"></button>
             </div>
+
         </div>
 
-        <img src=" ./images/iphone-azul.png">
+        <div class="circulo"></div>
+
+        <img class="iphone" src="./images/iphone-azul.png">
+
     </div>
 
 </body>
