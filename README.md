@@ -4,7 +4,7 @@ Projeto desenvolvido em HTML,CSS e Java Script na semana Você Programador do Ro
 
 🔗 [Click here to access](https://n4ju15.github.io/)
 
-![screenshot](./images/readme.md.pngimages)
+![screenshot](./images/readme.md.png)
 
 ## Tecnologias
 
