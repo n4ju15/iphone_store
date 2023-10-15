@@ -162,7 +162,6 @@ li {
 
     .iphone {
         width: 200px;
-        margin-top: 0px;
         position: absolute;
         top: 60%;
         left: 40%;
@@ -170,6 +169,10 @@ li {
 
     .circulo {
         z-index: 2;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        bottom: 0;
         clip-path: circle(350px at right 1010px);
     }
 }
