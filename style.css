@@ -137,6 +137,10 @@ li {
 }
 
 @media screen and (max-width: 900px) {
+    body {
+        height: 100vh;
+    }
+
     .caixa-roxa {
         justify-content: left;
         padding-left: 1rem;
@@ -157,15 +161,15 @@ li {
     }
 
     .iphone {
-        width: 250px;
+        width: 200px;
         margin-top: 0px;
         position: absolute;
-        top: 55%;
-        left: 30%;
+        top: 60%;
+        left: 40%;
     }
 
     .circulo {
         z-index: 2;
-        clip-path: circle(380px at right 1000px);
+        clip-path: circle(350px at right 1010px);
     }
 }
