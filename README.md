@@ -4,7 +4,15 @@ Projeto desenvolvido em HTML,CSS e Java Script na semana Você Programador do Ro
 
 🔗 [Click here to access](https://n4ju15.github.io/iphone_store/)
 
+## Versão para Desktop
+
 ![screenshot](./images/readme.md.png)
+
+## Versão para Mobile
+
+<div align="center">
+<img src="./images/mobile.png"  width="200" height="400">
+</div>
 
 ## Tecnologias
 

@@ -35,7 +35,7 @@ li {
 
 /*PARTE INFERIOR*/
 
-.caixa-azul{
+.caixa-azul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,3 +136,36 @@ li {
     clip-path: circle(600px at right 1000px);
 }
 
+@media screen and (max-width: 900px) {
+    .caixa-roxa {
+        justify-content: left;
+        padding-left: 1rem;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .caixa-azul {
+        display: block;
+        padding-top: 10px;
+
+    }
+
+    .titulo-secundario {
+        width: 350px;
+    }
+
+    .iphone {
+        width: 250px;
+        margin-top: 0px;
+        position: absolute;
+        top: 55%;
+        left: 30%;
+    }
+
+    .circulo {
+        z-index: 2;
+        clip-path: circle(380px at right 1000px);
+    }
+}
